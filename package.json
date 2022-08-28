@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --mode production",
-    "preview": "vite preview --host localhost --open"
+    "preview": "vite preview --host localhost --open",
+    "test": "vitest"
   },
   "dependencies": {
+    "vitest": "^0.22.1",
     "vue": "^3.2.37"
   },
   "devDependencies": {
