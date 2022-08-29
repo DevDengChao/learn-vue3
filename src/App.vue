@@ -4,6 +4,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import {ref} from "vue";
 import ElementPlusHelloWorld from "./components/ElementPlusHelloWorld.vue";
+import ElementPlusGlobalRegisteredHelloWorld from "./components/ElementPlusGlobalRegisteredHelloWorld.vue";
 
 let msg = "Vite + Vue";
 const data = {msg}
@@ -26,6 +27,7 @@ ref(data);
   <div style="display: flex; align-items: center">
     <HelloWorld/>
     <ElementPlusHelloWorld/>
+    <ElementPlusGlobalRegisteredHelloWorld/>
   </div>
 
   <p>
