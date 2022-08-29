@@ -37,3 +37,6 @@ Cypress.Commands.add('mount', mount)
 
 // Example use:
 // cy.mount(MyComponent)
+
+// load Element Plus's style before running specs
+import 'element-plus/dist/index.css';
