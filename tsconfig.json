@@ -21,7 +21,7 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "node_modules/cypress/types/cypress-global-vars.d.ts"
+    "cypress"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
