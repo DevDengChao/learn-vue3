@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build --mode production",
-    "preview": "vite preview --host localhost --open",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --open",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "cypress:component": "cypress run --component --headed",
