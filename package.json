@@ -8,7 +8,8 @@
     "preview": "vite preview --host localhost --open",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "cypress": "cypress run --browser chrome --component --headed"
+    "cypress:component": "cypress run --component --headed",
+    "cypress:e2e": "cypress run --e2e --headed"
   },
   "dependencies": {
     "element-plus": "^2.2.15",
