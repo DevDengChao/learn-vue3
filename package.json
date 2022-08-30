@@ -9,7 +9,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "cypress:component": "cypress run --component --headed",
-    "cypress:e2e": "start-server-and-test preview 4173 'cypress run --e2e --headed'"
+    "cypress:e2e": "start-server-and-test 'vite preview' 4173 'cypress run --e2e --headed'"
   },
   "dependencies": {
     "element-plus": "^2.2.15",
