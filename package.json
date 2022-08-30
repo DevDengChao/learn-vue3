@@ -9,7 +9,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "cypress:component": "cypress run --component --headed",
-    "cypress:e2e": "cypress run --e2e --headed"
+    "cypress:e2e": "start-server-and-test preview 4173 'cypress run --e2e --headed'"
   },
   "dependencies": {
     "element-plus": "^2.2.15",
@@ -22,6 +22,7 @@
     "@vitest/ui": "^0.22.1",
     "cypress": "^10.6.0",
     "jsdom": "^20.0.0",
+    "start-server-and-test": "^1.14.0",
     "typescript": "^4.8.2",
     "vite": "^3.0.9",
     "vitest": "^0.22.1",
